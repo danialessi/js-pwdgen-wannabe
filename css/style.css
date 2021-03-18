@@ -1,0 +1,14 @@
+.password-generator {
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#password {
+    display: none;
+}
+
+.password-generator:active #password {
+    display: block;
+}
